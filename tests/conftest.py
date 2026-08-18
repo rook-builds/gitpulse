@@ -11,21 +11,22 @@ from gitpulse.core import Item
 def sample_items():
     return [
         Item(
-            title="A first item",
-            url="https://example.com/1",
+            title="Initial commit",
+            url="",
             author="alice",
-            score=42,
-            comments=5,
+            score=0,
+            comments=0,
             created_at=datetime(2026, 7, 10, 17, 43, 30, tzinfo=timezone.utc),
-            body="Some body text.",
+            body="abc12345",
         ),
         Item(
-            title="A second item, with commas",
-            url="https://example.com/2",
+            title="Add feature, with commas",
+            url="",
             author="bob",
-            score=100,
-            comments=20,
+            score=0,
+            comments=0,
             created_at=datetime(2026, 7, 9, 12, 0, 0, tzinfo=timezone.utc),
+            body="def67890",
         ),
     ]
 
